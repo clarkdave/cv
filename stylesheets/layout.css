@@ -113,6 +113,7 @@ body {
 	list-style-type: disc;
 	margin: 0 0 0 24px;
 	padding: 0 0 4px 0;
+	line-height: 21px;
 }
 
 #education .last {
@@ -172,9 +173,83 @@ body {
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		
+		#title h1, #title p {
+			margin-left: 10px;
+		}
+
+		#title h1 {
+			margin-top: 0;
+		}
+
+		#contacts {
+			margin: 0 0 5px 0;
+		}
+
+		#contacts p {
+			margin-right: 10px;
+		}
+
+		hr {
+			margin-bottom: 10px;
+		}
+
 		.aside {
 			text-align: left;
+			margin-top: 0;
+			margin-left: 10px;
+			font-size: 1.5em;
 		}
+
+		#about p {
+			padding: 10px 10px 0 10px;
+			margin-bottom: 10px;
+		}
+
+		#skills ul {
+			/*padding: 10px 10px 0 10px;*/
+			margin-bottom: 0;
+		}
+
+		#skills ul li {
+			margin: 0 10px 12px 10px;
+			border-left: none;
+			border-bottom: none;
+			border-top: 1px solid #F0F0F0;
+			padding-left: 0;
+			padding-bottom: 0;
+			padding-top: 5px;
+		}
+
+		#skills .aside {
+			margin-bottom: 15px;
+		}
+
+		.job {
+			padding: 10px 10px 0 10px;
+		}
+
+		.job .body .last {
+			padding-bottom: 10px;
+			margin-bottom: 0;
+		}
+
+		#education .aside {
+			margin-bottom: 10px;
+		}
+
+		.school {
+			padding: 0 10px 0 10px;
+		}
+
+		#references .box {
+			margin-top: 10px;
+			padding: 0 10px 0 10px;
+		}
+
+		#references .request {
+			padding: 0 10px 0 10px;
+		}
+
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
