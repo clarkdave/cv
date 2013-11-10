@@ -160,13 +160,11 @@ body {
 }
 
 #references p.request {
-	margin-top: 8px;
+	margin-top: 7px;
 	font-style: italic;
 }
 
-.page-break {
-	page-break-before: always;
-}
+
 
 /* #Media Queries
 ================================================== */
@@ -299,3 +297,7 @@ body {
 	    font-weight: normal;
 	    font-style: normal; }
 */
+
+p {
+	font-size: 15px;
+}

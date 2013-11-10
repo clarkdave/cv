@@ -1,0 +1,25 @@
+
+body {
+  /*font-size: 14px;*/
+}
+
+.job h3 span {
+  color: #444;
+}
+
+.page-break {
+  /*page-break-before: always;*/
+  /*margin-top: 200px;*/
+}
+
+.new-page {
+  margin-top: 500px;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul li {
+  font-size: 16px;
+}
